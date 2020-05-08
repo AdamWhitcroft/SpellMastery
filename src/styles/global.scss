@@ -1,0 +1,32 @@
+// Utils
+@import "utils/normalize";
+@import "utils/variables";
+@import "utils/extends";
+
+// Document
+
+html {
+  background: $color-background;
+  color: $color;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+
+main {
+  @extend .width;
+}
+
+/* Type */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color--darker;
+}
+
+a {
+  text-decoration: none;
+}

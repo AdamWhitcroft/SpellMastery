@@ -1,0 +1,9 @@
+@import "../utils/variables";
+@import "../utils/extends";
+
+.support {
+  padding: 1em;
+  background: $color-purple--light;
+  color: $color-purple--dark;
+  border-radius: 8px;
+}

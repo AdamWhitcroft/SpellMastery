@@ -1,0 +1,10 @@
+@import "../utils/variables";
+@import "../utils/extends";
+
+.footer {
+  padding: 1em 0;
+
+  .wrapper {
+    @extend .width;
+  }
+}
